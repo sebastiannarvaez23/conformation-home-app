@@ -1,0 +1,176 @@
+:root {
+    --primary-color: #0060ac;
+    --very-white: #f3eef5;
+    --component: #e6e4f5;
+    --very-like-pink: #fcdae1;
+}
+
+.panel-formulario-agregar-persona{
+    padding: 12px;
+    background-color: var(--very-white);
+    width: 95%;
+    height: 78%;
+    margin: 12px auto 0px auto;
+    border-radius: 15px;
+    box-shadow: 0px 1.5px 1.5px rgba(0, 0, 0, 0.2);
+}
+
+.panel-formulario-agregar-persona .titulo-panel h4{
+    margin: 4px;
+}
+
+.contenido-formulario{
+    padding: 15px;
+    width: 65%; 
+}
+
+.contenido-formulario input {
+    margin-bottom: 20px;
+}
+
+.inputs-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.inputs-grid div label, .inputs-grid div input, .inputs-grid div select{
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+
+.inputs-grid div input::placeholder{
+    color: white;
+}
+
+.inputs-grid div input, .inputs-grid div select{
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+    width: 85%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.inputs-grid div input:focus, .inputs-grid div select:focus{
+    outline-color: var(--primary-color);
+}
+
+.pnl-btn{
+    width: 100%;
+    text-align: center;
+}
+
+.btn-agregar{
+    background-color: var(--primary-color);
+    border: none;
+    height: 5vh;
+    width: 30%;
+    border-radius: 8px;
+    color: var(--very-white);
+    cursor: pointer;
+    box-shadow: 0px 1.5px 1.5px rgba(0, 0, 0, 0.2);
+    margin: 8px 0px 8px 0px;
+    transition: all .2s;
+    font-size: 16px;
+}
+
+.btn-agregar:hover{
+    width: 30.2%;
+    height: 5.2vh;
+    box-shadow: 0px 2.5px 2.5px rgba(0,0,0,0.50);
+    transition: all .2s;
+    font-size: 17px;
+}
+
+@media (max-width: 1000px) {
+
+    .contenido-formulario {
+        text-align: center;
+    }
+
+    .inputs-grid{
+        grid-template-columns: auto;
+    }
+
+    .contenido-formulario{
+        padding: 0px;
+        width: 100%;
+    }
+
+    .inputs-grid div input, .inputs-grid div select{
+        width: 90%;
+        height: 6vh;
+        padding: 4px 4px 4px 18px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inputs-grid div input::placeholder{
+        color: rgb(196, 196, 196);
+    }
+
+    .inputs-grid div label{
+        display: none;
+    }
+
+    .panel-principal {
+        width: 90%;
+    }
+
+    .btn-agregar{
+        width: 90%;
+        height: 8vh;
+    }
+
+    .btn-agregar:hover{
+        width: 90%;
+        height: 8vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .contenido-formulario {
+        text-align: center;
+    }
+
+    .inputs-grid{
+        grid-template-columns: auto;
+    }
+
+    .contenido-formulario{
+        padding: 0px;
+        text-align: center;
+    }
+
+    .contenido-formulario input, .inputs-grid div select {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .inputs-grid div label{
+        display: none;
+    }
+
+    .inputs-grid div input::placeholder{
+        color: rgb(196, 196, 196);
+    }
+
+    .panel-principal {
+        width: 100%;
+    }
+
+    .btn-agregar{
+        width: 90%;
+        height: 8vh;
+    }
+
+    .btn-agregar:hover{
+        width: 90%;
+        height: 8vh;
+    }
+}
