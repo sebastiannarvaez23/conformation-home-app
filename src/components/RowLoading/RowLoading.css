@@ -4,11 +4,15 @@
     margin: 8px 0px 8px 0px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 24px 10px 24px;
+    padding: 12px 24px;
     text-align: center;
     background: linear-gradient(to bottom right, var(--primary-color), #023763);
     color: var(--very-white);
     border-radius: 10px;
     box-shadow: 0px 1.5px 1.5px rgba(0, 0, 0, 0.2);
     transition: all .3s;
+}
+
+h5 {
+    margin: 0;
 }

@@ -3,26 +3,29 @@
 }
 
 .logo-comfandi img {
-    width: 25%;
+    width: 10%;
     transition: all .4s;
+    float: right;
 }
 
 .panel-principal {
-    margin: 10vh 15% 10vh 15%;
+    margin: 4vh 15% 4vh 15%;
     min-width: 350px;
-    width: 70%;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
 }
 
 .panel-principal h1 {
-    margin: 0px 0px 12px 20px;
+    margin: 0px 0px 12px 8%;
+    font-size: 40px
 }
 
 @media (max-width: 700px) {
     .panel-principal {
         width: 90%;
     }
+
     .logo-comfandi img {
         width: 50%;
         transition: all .4s;

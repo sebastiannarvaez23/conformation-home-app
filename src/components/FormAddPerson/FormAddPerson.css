@@ -5,7 +5,7 @@
     --very-like-pink: #fcdae1;
 }
 
-.panel-formulario-agregar-persona{
+.panel-formulario-agregar-persona {
     padding: 12px;
     background-color: var(--very-white);
     width: 95%;
@@ -15,25 +15,28 @@
     box-shadow: 0px 1.5px 1.5px rgba(0, 0, 0, 0.2);
 }
 
-.panel-formulario-agregar-persona .titulo-panel h4{
+.panel-formulario-agregar-persona .titulo-panel h4 {
     margin: 4px;
 }
 
-.contenido-formulario{
+.contenido-formulario {
     padding: 15px;
-    width: 65%; 
+    width: 95%;
+    margin: 0 auto;
 }
 
 .contenido-formulario input {
     margin-bottom: 20px;
 }
 
-.inputs-grid{
+.inputs-grid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto auto;
 }
 
-.inputs-grid div label, .inputs-grid div input, .inputs-grid div select{
+.inputs-grid div label,
+.inputs-grid div input,
+.inputs-grid div select {
     display: block;
     margin-top: 4px;
     margin-bottom: 4px;
@@ -42,11 +45,12 @@
 }
 
 
-.inputs-grid div input::placeholder{
+.inputs-grid div input::placeholder {
     color: white;
 }
 
-.inputs-grid div input, .inputs-grid div select{
+.inputs-grid div input,
+.inputs-grid div select {
     border: none;
     height: 30px;
     padding-left: 10px;
@@ -56,16 +60,17 @@
     background-color: white;
 }
 
-.inputs-grid div input:focus, .inputs-grid div select:focus{
+.inputs-grid div input:focus,
+.inputs-grid div select:focus {
     outline-color: var(--primary-color);
 }
 
-.pnl-btn{
+.pnl-btn {
     width: 100%;
     text-align: center;
 }
 
-.btn-agregar{
+.btn-agregar {
     background-color: var(--primary-color);
     border: none;
     height: 5vh;
@@ -79,10 +84,10 @@
     font-size: 16px;
 }
 
-.btn-agregar:hover{
+.btn-agregar:hover {
     width: 30.2%;
     height: 5.2vh;
-    box-shadow: 0px 2.5px 2.5px rgba(0,0,0,0.50);
+    box-shadow: 0px 2.5px 2.5px rgba(0, 0, 0, 0.50);
     transition: all .2s;
     font-size: 17px;
 }
@@ -93,16 +98,17 @@
         text-align: center;
     }
 
-    .inputs-grid{
+    .inputs-grid {
         grid-template-columns: auto;
     }
 
-    .contenido-formulario{
+    .contenido-formulario {
         padding: 0px;
         width: 100%;
     }
 
-    .inputs-grid div input, .inputs-grid div select{
+    .inputs-grid div input,
+    .inputs-grid div select {
         width: 90%;
         height: 6vh;
         padding: 4px 4px 4px 18px;
@@ -110,11 +116,11 @@
         margin-right: auto;
     }
 
-    .inputs-grid div input::placeholder{
+    .inputs-grid div input::placeholder {
         color: rgb(196, 196, 196);
     }
 
-    .inputs-grid div label{
+    .inputs-grid div label {
         display: none;
     }
 
@@ -122,12 +128,12 @@
         width: 90%;
     }
 
-    .btn-agregar{
+    .btn-agregar {
         width: 90%;
         height: 8vh;
     }
 
-    .btn-agregar:hover{
+    .btn-agregar:hover {
         width: 90%;
         height: 8vh;
     }
@@ -138,25 +144,26 @@
         text-align: center;
     }
 
-    .inputs-grid{
+    .inputs-grid {
         grid-template-columns: auto;
     }
 
-    .contenido-formulario{
+    .contenido-formulario {
         padding: 0px;
         text-align: center;
     }
 
-    .contenido-formulario input, .inputs-grid div select {
+    .contenido-formulario input,
+    .inputs-grid div select {
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
-    .inputs-grid div label{
+    .inputs-grid div label {
         display: none;
     }
 
-    .inputs-grid div input::placeholder{
+    .inputs-grid div input::placeholder {
         color: rgb(196, 196, 196);
     }
 
@@ -164,12 +171,12 @@
         width: 100%;
     }
 
-    .btn-agregar{
+    .btn-agregar {
         width: 90%;
         height: 8vh;
     }
 
-    .btn-agregar:hover{
+    .btn-agregar:hover {
         width: 90%;
         height: 8vh;
     }

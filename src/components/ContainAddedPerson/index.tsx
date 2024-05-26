@@ -1,7 +1,11 @@
-import React from "react";
-import './PanelPersonasAgregadas.css';
+import { ReactNode } from 'react';
+import './ContainAddedPerson.css';
 
-function PanelPersonasAgregadas(props) {
+interface ContainAddedPersonProps {
+    children: ReactNode;
+}
+
+function ContainAddedPerson({ children }: ContainAddedPersonProps): ReactNode {
     return (
         <div className="panel-personas-agregadas">
             <div className="cabecera-datos">
@@ -16,10 +20,10 @@ function PanelPersonasAgregadas(props) {
                 <span>Cabeza Hogar</span>
             </div>
             <div>
-                {props.children}
+                {children}
             </div>
         </div>
     );
 }
 
-export { PanelPersonasAgregadas };
+export { ContainAddedPerson };

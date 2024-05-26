@@ -5,18 +5,20 @@
     --very-like-pink: #fcdae1;
 }
 
-.panel-secundario{
+.panel-secundario {
+    width: 80%;
+    margin: 0 auto;
     padding: 10px 10px 50px 10px;
     background: linear-gradient(to bottom right, var(--component), #e0e0ec63);
     border-radius: 25px;
     box-shadow: 0px 1.5px 1.5px rgba(0, 0, 0, 0.2);
 }
 
-.panel-secundario h3{
+.panel-secundario h3 {
     margin: 20px;
 }
 
-.panel-secundario .subtitulo{
+.panel-secundario .subtitulo {
     width: 95%;
     margin: 8px auto 8px auto;
     background: linear-gradient(to bottom right, var(--primary-color), #023763);
